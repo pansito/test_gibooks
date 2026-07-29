@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitDocs - Premium Documentation</title>
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                <span>GitDocs</span>
+            </div>
+            <div class="nav-links">
+                <a href="#intro" class="nav-link active">Introducción</a>
+                <a href="#downloads" class="nav-link">Descargas</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Layout -->
+    <div class="layout-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar glass-panel">
+            <div class="sidebar-content">
+                <h3>Documentación</h3>
+                <ul class="sidebar-nav">
+                    <li><a href="#intro" class="sidebar-link active">Introducción</a></li>
+                    <li><a href="#getting-started" class="sidebar-link">Primeros Pasos</a></li>
+                    <li><a href="#architecture" class="sidebar-link">Arquitectura</a></li>
+                    <li><a href="#api" class="sidebar-link">API Reference</a></li>
+                </ul>
+                <div class="divider"></div>
+                <h3>Recursos</h3>
+                <ul class="sidebar-nav">
+                    <li><a href="#downloads" class="sidebar-link">Archivos Descargables</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <section id="intro" class="hero-section fade-in">
+                <h1 class="gradient-text">Bienvenido a GitDocs.</h1>
+                <p class="subtitle">Estructura de documentación elegante y minimalista. Diseñada con precisión para una experiencia visual fluida.</p>
+            </section>
+
+            <section class="content-section animate-on-scroll" id="getting-started">
+                <div class="glass-card">
+                    <h2>Primeros Pasos</h2>
+                    <p>GitDocs ha sido construido desde cero utilizando HTML, CSS y JS puro para garantizar el mayor rendimiento posible al hostearse en <strong>GitHub Pages</strong>. Su diseño está fuertemente inspirado en el minimalismo moderno.</p>
+                    
+                    <div class="code-block">
+                        <div class="code-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code>git clone https://github.com/tu-usuario/repo.git
+cd repo
+# Todo listo, abre index.html en tu navegador.</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section animate-on-scroll" id="architecture">
+                <div class="glass-card">
+                    <h2>Arquitectura de Diseño</h2>
+                    <p>El sistema utiliza <em>Glassmorphism</em>, tipografía refinada (Inter) y un esquema de colores en modo oscuro altamente iterado para lograr un aspecto profesional.</p>
+                    <ul>
+                        <li><b>Glassmorphism:</b> Efectos de desenfoque e interfaces traslúcidas.</li>
+                        <li><b>Responsive:</b> Adaptable sin problemas en dispositivos móviles y de escritorio.</li>
+                        <li><b>Microinteracciones:</b> Transiciones suaves que guían e invitan al usuario a interactuar.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section animate-on-scroll" id="api">
+                <div class="glass-card">
+                    <h2>API Reference</h2>
+                    <p>Al mantener los módulos aislados y utilizar herramientas vainilla, no hay dependencias externas pesadas que puedan interrumpir el flujo de renderizado en plataformas estáticas como GitHub Pages o dispositivos limitados.</p>
+                </div>
+            </section>
+
+            <div class="divider animate-on-scroll"></div>
+
+            <section class="content-section animate-on-scroll" id="downloads">
+                <h2>Recursos y Descargas</h2>
+                <p>Descarga los archivos esenciales desde el repositorio original de forma rápida y sencilla.</p>
+
+                <div class="downloads-grid">
+                    <div class="download-card glass-card hover-glow">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Documento 1</h3>
+                            <p>Especificaciones técnicas de API.</p>
+                        </div>
+                        <a href="resources/file1.txt" download class="download-btn">
+                            Descargar
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+                    
+                    <div class="download-card glass-card hover-glow">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Configuración Base</h3>
+                            <p>Datos de inicialización de la app.</p>
+                        </div>
+                        <a href="resources/file2.txt" download class="download-btn">
+                            Descargar
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+
+                    <div class="download-card glass-card hover-glow">
+                        <div class="card-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                        </div>
+                        <div class="card-content">
+                            <h3>Métricas de Uso</h3>
+                            <p>Registro de actividades en bruto.</p>
+                        </div>
+                        <a href="resources/file3.txt" download class="download-btn">
+                            Descargar
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Este es un archivo de prueba (file1.txt) diseñado para demostrar la capacidad de descarga de la plataforma.
+Contiene texto aleatorio y especificaciones técnicas ficticias para la API de GitDocs.
+
+1. Autenticación requiere token de portador.
+2. Limite de tasa: 100 req/s.
+3. Formato de respuesta JSON por defecto.

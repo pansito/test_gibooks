@@ -1,0 +1,7 @@
+Este es el archivo de prueba (file2.txt) para la base de configuración.
+Parámetros de entorno:
+- NODE_ENV=production
+- MAX_RETRIES=5
+- CACHE_TTL=3600
+
+Archivo utilizado para inicialización.
